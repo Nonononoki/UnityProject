@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{17533FA3-357A-CEC6-ED1C-9FA92629C572}</ProjectGuid>
+    <ProjectGuid>{5B9FF267-005F-A3BF-219E-FEAE2D8C894F}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -45,13 +45,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\ActivateScriptOnCollision.cs" />
-     <Compile Include="Assets\AirForce.cs" />
-     <Compile Include="Assets\Controller.cs" />
-     <Compile Include="Assets\DestroyOnCollision.cs" />
-     <Compile Include="Assets\Drag.cs" />
-     <Compile Include="Assets\FreezeRotation.cs" />
-     <Compile Include="Assets\PropellerRotate.cs" />
+     <Compile Include="Assets\Scripts\ActivateScriptOnCollision.cs" />
+     <Compile Include="Assets\Scripts\AirForce.cs" />
+     <Compile Include="Assets\Scripts\Controller.cs" />
+     <Compile Include="Assets\Scripts\DestroyOnCollision.cs" />
+     <Compile Include="Assets\Scripts\Drag.cs" />
+     <Compile Include="Assets\Scripts\FreezeRotation.cs" />
+     <Compile Include="Assets\Scripts\PropellerRotate.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

@@ -5,8 +5,6 @@ public class Controller : MonoBehaviour {
 	
 	public float moveSpeed;
 	public float jumpHeight;
-	public float accl = 200;
-	//private float verticalJump = 2f; //Vertical moveSpeed when jumping
 	
 	private float rightButtonPosition = Screen.width /2 + Screen.width /4;
 	private float leftButtonPosition = Screen.width / 4;
@@ -21,8 +19,7 @@ public class Controller : MonoBehaviour {
 	
 	// Update is called once per frame
 	void FixedUpdate () 
-	{
-		
+	{		
 		//jump right
 		if (Input.touchCount > 0 && Input.GetTouch(0).tapCount == 2 && Input.GetTouch(0).position.x > rightButtonPosition)
 		{
@@ -68,7 +65,6 @@ public class Controller : MonoBehaviour {
 		} else if (!right && !isJumping()) {
 			rb.AddForce(transform.up*jumpHeight,ForceMode.Impulse);
 		}
-
 	}
 
 	bool isJumping()

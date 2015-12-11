@@ -15,7 +15,6 @@ public class AirForce : MonoBehaviour {
 
 	void Start()
 	{
-		Debug.Log (this.name);
 	}
 
 	public void direction()
@@ -37,7 +36,6 @@ public class AirForce : MonoBehaviour {
 
 	public void OnTriggerStay(Collider coll)
 	{
-		Debug.Log (this.enabled);
 		if (this.enabled == true) {
 			Rigidbody rb = coll.GetComponent<Rigidbody> ();
 
